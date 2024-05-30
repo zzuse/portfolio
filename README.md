@@ -18,6 +18,7 @@ npx create-react-app jbook --template typescript
     npm install --save-exact esbuild-wasm@0.8.27
     npm view react dist.tarball
     npm install axios
+    CHROME: new URL('./utils', 'https://unpkg.com/medium-test-pkg/')
 ```
 
 # Chapters
