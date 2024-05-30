@@ -1,4 +1,4 @@
-# Ref
+# References
 ```
 https://esbuild.github.io
 https://registry.npmjs.org/-/v1/search
@@ -20,7 +20,8 @@ npx create-react-app jbook --template typescript
     npm install axios
 ```
 
-# Steps
+# Chapters
+```
 chapter 15. commit 69832440cf89a7d2156d17cfea770f502ad3bc70
 chapter 17. commit 093a8bca56c9a682e6e8e5243d244f8f354ecefc
 chapter 20. commit f564e57818a3137958e86cd7b03f8e8b06aa1d01
@@ -29,3 +30,5 @@ chapter 23. commit ebafc61cb2171dd211055ba1170f68b7ca6d3266
 chapter 28. commit aa071f66e0e86f8043302ff0a26f9aa951d24d5f
 chapter 51. commit 23509a155953a4a7fd505ae19df9d8f42a1a1c8e
 chapter 70. commit 1734e685360e81e625483de8b1f008f638937c3a
+chapter 80. commit 5e967b7344bc858a6611c10115963cc2f83f50bc
+```
