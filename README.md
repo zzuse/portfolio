@@ -37,4 +37,5 @@ chapter 80 Generating the Unpkg URL. commit 5e967b7344bc858a6611c10115963cc2f83f
 chapter 83 Using the URL Constructor. commit 57442f181d0b31fed5980f65e1e852cb854df2c
 chapter 85 Resolving Nested Paths. commit 0ba0ebc1a0149a22cfd6f9ea2a8ff4c2cf59e004
 chapter 88 Bonus! Package Versioning. commit 47fc650a8337125a0092d03ac2ba829f3077d553
+chapter 103 A Better Way of Loading WASM commit 38dce0ede48aa489f1d7ce4f95c57b24292088a3
 ```
