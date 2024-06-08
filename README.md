@@ -21,6 +21,7 @@ npx create-react-app jbook --template typescript
     npm install axios
     CHROME: new URL('./utils', 'https://unpkg.com/medium-test-pkg/')
     CHROME: indexedDB
+    CHROME: document.querySelector('iframe')
 ```
 
 # Chapters
@@ -43,5 +44,6 @@ chapter 110 Sandboxing an IFrame. commit 0b03dfe72672ceea182980327a98c22815b6f7b
 chapter 116 IFrames with SrcDocs. commit 264844d30f9de0adcf2198dbe2ccd2cc8951e21e
 chapter 118 Running Unescaped Code. commit 4559ac7db35d30b4b5caf7280ee99601638501e4
 chapter 119 Indirect Communication Between Frames. commit 3142424b5e0b070ee8594a37b97f11b6a1a06e7e
-chapter 122 Highlighting Errors.
+chapter 122 Highlighting Errors. commit beca2ab0fa4626ff863bf5a499fbf8dae91d72ac
+chapter 125 Resetting the IFrame Contents and Warning Fixup. 
 ```
