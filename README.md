@@ -41,4 +41,6 @@ chapter 103 A Better Way of Loading WASM. commit 38dce0ede48aa489f1d7ce4f95c57b2
 chapter 107 Displaying IFrames. commit e90d351cf871fbc746c86052bfae81c5cd41c20e
 chapter 110 Sandboxing an IFrame. commit 0b03dfe72672ceea182980327a98c22815b6f7bf
 chapter 116 IFrames with SrcDocs. commit 264844d30f9de0adcf2198dbe2ccd2cc8951e21e
+chapter 118 Running Unescaped Code. commit 4559ac7db35d30b4b5caf7280ee99601638501e4
+chapter 119 Indirect Communication Between Frames.
 ```
