@@ -42,14 +42,7 @@ const App = () => {
             }
         });
 
-        // console.log(result);
-
         setCode(result.outputFiles[0].text);
-        try {
-            eval(result.outputFiles[0].text);
-        } catch (err) {
-            alert(err);
-        }
     };
 
     return <div>
@@ -60,8 +53,12 @@ const App = () => {
         </div>
         <pre>{code}</pre>
 
-        <iframe sandbox="allow-same-origin" src="/test.html" />
+        <iframe sandbox="" srcDoc={html} />
     </div>;
 };
+
+const html = `
+<h1>Local HTML Doc <h1>
+`;
 
 root.render(<App />);
