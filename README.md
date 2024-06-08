@@ -40,4 +40,5 @@ chapter 88 Bonus! Package Versioning. commit 47fc650a8337125a0092d03ac2ba829f307
 chapter 103 A Better Way of Loading WASM. commit 38dce0ede48aa489f1d7ce4f95c57b24292088a3
 chapter 107 Displaying IFrames. commit e90d351cf871fbc746c86052bfae81c5cd41c20e
 chapter 110 Sandboxing an IFrame. commit 0b03dfe72672ceea182980327a98c22815b6f7bf
+chapter 116 IFrames with SrcDocs. commit 264844d30f9de0adcf2198dbe2ccd2cc8951e21e
 ```

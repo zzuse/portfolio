@@ -45,6 +45,12 @@ const App = () => {
         setCode(result.outputFiles[0].text);
     };
 
+    const html = `
+    <script>
+    ${code}
+    </script>
+    `;
+
     return <div>
         <textarea value={input} onChange={e => setInput(e.target.value)}>
         </textarea>
@@ -53,7 +59,7 @@ const App = () => {
         </div>
         <pre>{code}</pre>
 
-        <iframe sandbox="" srcDoc={html} />
+        <iframe sandbox="allow-scripts" srcDoc={html} />
     </div>;
 };
 
