@@ -3,7 +3,7 @@ import axios from 'axios';
 import localForage from 'localforage';
 
 const fileCache = localForage.createInstance({
-    name: 'filecche'
+    name: 'filecache'
 });
 
 export const fetchPlugin = (inputCode: string) => {

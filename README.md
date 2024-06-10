@@ -22,6 +22,8 @@ npx create-react-app jbook --template typescript
     CHROME: new URL('./utils', 'https://unpkg.com/medium-test-pkg/')
     CHROME: indexedDB
     CHROME: document.querySelector('iframe')
+    npm install --save-exact @monaco-editor/react@3.7.5 --legacy-peer-deps
+    npm install monaco-editor@0.21.2 --legacy-peer-deps
 ```
 
 # Chapters
@@ -45,5 +47,6 @@ chapter 116 IFrames with SrcDocs. commit 264844d30f9de0adcf2198dbe2ccd2cc8951e21
 chapter 118 Running Unescaped Code. commit 4559ac7db35d30b4b5caf7280ee99601638501e4
 chapter 119 Indirect Communication Between Frames. commit 3142424b5e0b070ee8594a37b97f11b6a1a06e7e
 chapter 122 Highlighting Errors. commit beca2ab0fa4626ff863bf5a499fbf8dae91d72ac
-chapter 125 Resetting the IFrame Contents and Warning Fixup. 
+chapter 125 Resetting the IFrame Contents and Warning Fixup. commit 5cd91f01b9089bd5d05af670e4f27a7c978bfd24
+chapter 135 Handling Editor Change Events.
 ```
