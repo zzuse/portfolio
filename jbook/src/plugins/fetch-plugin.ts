@@ -35,7 +35,7 @@ export const fetchPlugin = (inputCode: string) => {
                 const style = document.createElement('style');
                 style.innerText = '${escaped}';
                 document.head.appendChild(style);
-                    `
+                    `;
                 const result: esbuild.OnLoadResult = {
                     loader: 'jsx',
                     contents,
@@ -59,6 +59,6 @@ export const fetchPlugin = (inputCode: string) => {
 
                 return result;
             });
-        }
-    }
-}
+        },
+    };
+};

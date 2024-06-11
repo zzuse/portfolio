@@ -69,7 +69,7 @@ const App = () => {
 </html>
     `;
 
-    return <div>
+    return (<div>
         <CodeEditor initialValue='const a = 2;'
             onChange={(value) => setInput(value)} />
         <textarea
@@ -83,7 +83,7 @@ const App = () => {
         </div>
 
         <iframe title="code preview" ref={iframe} sandbox="allow-scripts" srcDoc={html} />
-    </div>;
+    </div>);
 };
 
 root.render(<App />);
