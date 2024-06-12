@@ -26,6 +26,7 @@ npx create-react-app jbook --template typescript
     npm install --save-exact @monaco-editor/react@3.7.5 --legacy-peer-deps
     npm install monaco-editor@0.21.2 --legacy-peer-deps
     npm install prettier@2 @types/prettier@2 --legacy-peer-deps
+    npm install bulmaswatch --legacy-peer-deps
 ```
 
 # Chapters
@@ -51,5 +52,6 @@ chapter 119 Indirect Communication Between Frames. commit 3142424b5e0b070ee8594a
 chapter 122 Highlighting Errors. commit beca2ab0fa4626ff863bf5a499fbf8dae91d72ac
 chapter 125 Resetting the IFrame Contents and Warning Fixup. commit 5cd91f01b9089bd5d05af670e4f27a7c978bfd24
 chapter 135 Handling Editor Change Events. commit 65ee3e8003163ea73274b65aea67a8b6a63a2439
-chapter 139 Automatic Code Formatting.
+chapter 139 Automatic Code Formatting. commit 7afe947fd2fe571d64f2249e71ec7547e33d09de
+chapter 142 Required Webpack v5 Polyfill Fixes.
 ```
