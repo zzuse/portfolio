@@ -38,7 +38,6 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ onChange, initialValue }) => {
     };
 
     const onFormatClick = () => {
-        console.log(editorRef.current);
         const unformatted = editorRef.current.getModel().getValue();
         const formatted = prettier.format(unformatted, {
             parser: 'babel',
@@ -58,7 +57,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ onChange, initialValue }) => {
                 value={initialValue}
                 theme="dark"
                 language="javascript"
-                height="500px"
+                height="100%"
                 options={{
                     wordWrap: 'on',
                     minimap: { enabled: false },
