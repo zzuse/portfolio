@@ -58,5 +58,7 @@ chapter 135 Handling Editor Change Events. commit 65ee3e8003163ea73274b65aea67a8
 chapter 139 Automatic Code Formatting. commit 7afe947fd2fe571d64f2249e71ec7547e33d09de
 chapter 142 Required Webpack v5 Polyfill Fixes. commit 20798ab78c025cee9a9460634897eccfaf8a9e01
 chapter 144 CSS For Syntax Highlighting. commit 937aabfc2bbe105c148dd351bd821fe8ec2f15bd
-chapter 161 Strategies for Prop Definitions(1 error couldn't fixed)
+chapter 161 Strategies for Prop Definitions: Resizable commit ee508e6c884d1f85fe730c85208d19aeeea07368 
+    (1 error couldn't fixed Support for defaultProps will be removed from function components)
+chapter 165 Updating the After Selector
 ```

@@ -7,15 +7,11 @@ const root = ReactDOM.createRoot(el!);
 
 const App = () => {
 
-    // const error = console.error;
-    // console.error = (...args: any) => {
-    //     if (/defaultProps/.test(args[0])) return;
-    //     error(...args);
-    // };
-
-    return (<div>
+    return (
+    <div>
         <CodeCell />
-    </div>);
+    </div>
+    );
 };
 
 root.render(<App />);
